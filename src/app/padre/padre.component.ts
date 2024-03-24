@@ -8,7 +8,10 @@ import { ServicioFamiliarService } from '../servicio-familiar.service';
 })
 export class PadreComponent implements OnInit{
 
-  //SERVICIO FAMILIAR
+  //PIPE
+  fecha?: Date = new Date;
+
+  //SERVICIO
   
   nombre?: string;
 

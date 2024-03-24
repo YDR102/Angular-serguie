@@ -8,6 +8,7 @@ import { PadreComponent } from './padre/padre.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { HermanoComponent } from './hermano/hermano.component';
 import { StyloHermanosDirective } from './stylo-hermanos.directive';
+import { PipePresonalizadoPipe } from './pipe-presonalizado.pipe';
 
 @NgModule({
   declarations: [			
@@ -15,7 +16,8 @@ import { StyloHermanosDirective } from './stylo-hermanos.directive';
     PadreComponent,
     HijoComponent,
     HermanoComponent,
-    StyloHermanosDirective
+    StyloHermanosDirective,
+    PipePresonalizadoPipe
    ],
   imports: [
     BrowserModule,
