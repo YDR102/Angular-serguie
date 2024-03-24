@@ -1,0 +1,7 @@
+<h1>Contador: {{valorContaodor}}</h1>
+<button (click)="incrementar()">Incrementar</button>
+<button (click)="decrementar()">Decrementar</button>
+
+<app-hijo [recibeHijo]="mensajePadre" (mensajeHijo)="recibirMensaje($event)"></app-hijo>
+
+<h2>El menjase del hijo es: </h2>{{mensajeRecibido}}
