@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PadreComponent } from './padre/padre.component';
 import { HijoComponent } from './hijo/hijo.component';
+import { HermanoComponent } from './hermano/hermano.component';
 
 @NgModule({
   declarations: [			
     AppComponent,
     PadreComponent,
-    HijoComponent
+    HijoComponent,
+    HermanoComponent
    ],
   imports: [
     BrowserModule,
