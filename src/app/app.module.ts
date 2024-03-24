@@ -7,13 +7,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PadreComponent } from './padre/padre.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { HermanoComponent } from './hermano/hermano.component';
+import { StyloHermanosDirective } from './stylo-hermanos.directive';
 
 @NgModule({
   declarations: [			
     AppComponent,
     PadreComponent,
     HijoComponent,
-    HermanoComponent
+    HermanoComponent,
+    StyloHermanosDirective
    ],
   imports: [
     BrowserModule,
